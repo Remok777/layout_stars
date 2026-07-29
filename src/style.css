@@ -1,1 +1,19 @@
 /* add styles here */
+head {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+}
+
+.stars--0 .stars__star {
+  background-image: url(./images/star.svg);
+}
+
+
